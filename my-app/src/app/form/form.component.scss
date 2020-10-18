@@ -1,0 +1,55 @@
+body {
+    background-image: url("../contact-background-images-9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.heading {
+    padding-top: 1cm;
+    text-align: center;
+}
+.box {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}  
+label {
+    font-weight: bold;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+button {
+    position: absolute;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    top: 110%;
+    left: 43%;
+}  
+button:hover {
+    background-color: blue;
+    color: white;
+}
+.message-1 {
+    position: absolute;
+    text-align: center;
+    top: 130%;
+    left: 38%;
+    color:green;
+}
+.message-2 {
+    position: absolute;
+    text-align: center;
+    top: 130%;
+    left: 38%;
+    color: red;
+}

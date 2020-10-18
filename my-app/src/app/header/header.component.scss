@@ -1,0 +1,13 @@
+div {
+    width: 100%;
+}  
+button {
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    width: 50%;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
